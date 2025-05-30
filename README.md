@@ -50,8 +50,8 @@ A multi-phase web-based database automation system that evolves from basic data 
 
 1. Clone the repository:
    ```bash
-   git clone 
-   cd web-based-das
+   git clone https://github.com/bucky-ops/web-based-database-automation-system.git
+   cd web-based-database-automation-system
    ```
 
 2. Install backend dependencies:
@@ -112,7 +112,7 @@ A multi-phase web-based database automation system that evolves from basic data 
 
 ## License
 
-[Your chosen license]
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
