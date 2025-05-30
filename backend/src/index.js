@@ -28,10 +28,16 @@ pool.connect((err, client, release) => {
   release();
 });
 
+// Import routes
+const authRoutes = require('./routes/auth');
+
 // Basic route
 app.get('/', (req, res) => {
   res.json({ message: 'Welcome to Web-based DAS API' });
 });
+
+// Use routes
+app.use('/api/auth', authRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
