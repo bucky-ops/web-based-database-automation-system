@@ -50,7 +50,7 @@ A multi-phase web-based database automation system that evolves from basic data 
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone 
    cd web-based-das
    ```
 
